@@ -5,7 +5,7 @@ import { STORAGE_KEYS } from "../config/storege_keys.config";
 @Injectable()
 export class StorageService {
 
-    getLovalUser() : LocalUser {
+    getLocalUser() : LocalUser {
         let usr  = localStorage.getItem(STORAGE_KEYS.localUser);
 
         if(usr == null) {
