@@ -4,7 +4,6 @@ import { Observable } from 'rxjs/Rx'; // IMPORTANTE: IMPORT ATUALIZADO
 import { StorageService } from '../services/storage.service';
 import { AlertController } from 'ionic-angular';
 import { FieldMessage } from '../models/fieldmessage';
-import { MessageSpan } from '@angular/compiler/src/i18n/i18n_ast';
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
