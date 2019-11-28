@@ -63,5 +63,9 @@ export class CartPage {
   goOn() { // continuar comprando
     this.navCtrl.setRoot('CategoriasPage');
   }
+
+  checkout() {
+    this.navCtrl.push('PickAddressPage');
+  }
   
 }
